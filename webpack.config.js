@@ -1,7 +1,9 @@
+var path = require('path')
+
 module.export = {
     entry: './src/js/app.js',
     output: {
-        path: 'dist',
+        path: 'build',
         filename: 'bundle.js'
     },
     module: {
@@ -15,8 +17,8 @@ module.export = {
                 }
             },
             {
-                test:/\.less$/,
-                loader:['style-loader','css-loader','less-loader']
+                test: /\.less$/,
+                loader: ['style-loader', 'css-loader', 'less-loader']
             }
         ]
     }

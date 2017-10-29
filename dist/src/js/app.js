@@ -1,6 +1,4 @@
-import {React} from ('react');
-import {ReactDOM} from ('react-dom');
+import { render } from ('react-dom');
+import { Header } from ('./src/js/components/header/header.js');
 
-ReactDOM.render(
-    document.getElementById()
-)
+render(<App />, document.getElementById("app"));
