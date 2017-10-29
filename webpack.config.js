@@ -1,25 +1,25 @@
 var path = require('path')
 
-module.export = {
-    entry: './src/js/app.js',
+module.exports = {
+    entry: './src/app.js',
     output: {
-        path: 'build',
-        filename: 'bundle.js'
+        path: path.resolve(__dirname,'./dist'),
+        filename: "bundle.js"
     },
     module: {
-        rules: [
-            {
-                test: /\.js$/,
-                exclude: /(node_modules)/,
-                loader: ['babel-loader'],
-                query: {
-                    presets: ['env', 'stage-0', 'react']
-                }
-            },
-            {
-                test: /\.less$/,
-                loader: ['style-loader', 'css-loader', 'less-loader']
+        loaders: [{
+            test: /\.js$/,
+            exclude: /node_modules/,
+            loader: 'babel-loader',
+            query: {
+                presets: ['es2015', 'react']
             }
-        ]
-    }
+        }]
+    },
+    devServer: {
+        inline: true,
+        contentBase: './dist',
+        port: 3333
+    },
+    
 }
