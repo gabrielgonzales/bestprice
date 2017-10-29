@@ -1,0 +1,25 @@
+{
+  "name": "bestprice",
+  "version": "1.0.0",
+  "description": "Sistemas Inteligentes",
+  "main": "server.js",
+  "scripts": {
+    "dist": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "keywords": [],
+  "author": "Andrew Hanasiro",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewHanasiro/bestprice.git"
+  },
+  "devDependencies": {
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
