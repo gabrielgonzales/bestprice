@@ -46,6 +46,11 @@ Para começar um [localost](http://localhost:8080) no ambiente de desenvolviment
 $ npm start
 ```
 
+Para iniciar o servidor do node
+```shell
+$ npm run server
+```
+
 TODO List
 =========
 * Desenvolver server.js
