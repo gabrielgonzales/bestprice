@@ -60,6 +60,7 @@ TODO List
 
 # FAQ
 **Como serão os arquivos após compilados?**
+
 +-- publicj
 |- js
 |-+ bundle.js
