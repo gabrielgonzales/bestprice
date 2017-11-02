@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-// const ClearWebpackPlugin = require('clean-webpack-plugin')
+const ClearWebpackPlugin = require('clean-webpack-plugin')
 
 module.exports = {
     entry: path.resolve(__dirname, './src/components/app.jsx'),
@@ -23,7 +23,7 @@ module.exports = {
         }),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NamedModulesPlugin(),
-        // new ClearWebpackPlugin(['public'])
+        new ClearWebpackPlugin(['public'])
     ],
     module: {
         rules: [

@@ -7,7 +7,7 @@
 		"build": "webpack -p --config webpack.config.js",
 		"start": "webpack-dev-server --config webpack.config.js",
 		"dev": "webpack -d --watch",
-		"server":"node server.js"
+		"server": "node server.js"
 	},
 	"keywords": [],
 	"author": "Andrew Hanasiro",
@@ -22,6 +22,7 @@
 		"babel-preset-es2015": "^6.24.1",
 		"babel-preset-react": "^6.24.1",
 		"babel-preset-stage-2": "^6.24.1",
+		"clean-webpack-plugin": "^0.1.17",
 		"css-loader": "^0.28.7",
 		"ejs-loader": "^0.3.0",
 		"extract-text-webpack-plugin": "^3.0.2",
