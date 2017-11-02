@@ -41,7 +41,7 @@ Para compilar para desenvolvimento:
 $ npm run dev
 ```
 
-Para começar um [localost] (http://localhost:8080) no ambiente de desenvolvimento:
+Para começar um [localost](http://localhost:8080) no ambiente de desenvolvimento:
 ```shell
 $ npm start
 ```
