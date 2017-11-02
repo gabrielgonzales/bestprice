@@ -9,16 +9,17 @@ Características
 
 Frameworks & Ferramentas
 ------------------------
-* NodeJs 8.7.0
-* ReactJs 16.0.0 + React-Router
-* Webpack 3.8.1 + Webpack-Dev-Server 2.9.3 
+* NodeJs v8.7.0
+* ReactJs v16.0.0 + React-Router v4.2.0
+* Webpack v3.8.1 + Webpack-Dev-Server v2.9.3 
 
 Linguagens de Programação
 -------------------------
 * HTML5
-* ECMAScrit 6 / ES6 / ES2015 -> CommomJs
+* ECMAScrit 6 / ES6 / ES2015 -> VanillaJs
 * JSX
 * SASS -> CSS
+* CommonJs
 
 # Instruções
 Instalação
@@ -40,7 +41,7 @@ Para compilar para desenvolvimento:
 $ npm run dev
 ```
 
-Para começar um [servidor local] (http://localhost:8080) no ambiente de desenvolvimento:
+Para começar um [localost] (http://localhost:8080) no ambiente de desenvolvimento:
 ```shell
 $ npm start
 ```
