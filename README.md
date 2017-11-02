@@ -59,23 +59,23 @@ TODO List
 * Criar o banco de dados com valores simulados
 
 # FAQ
-Como serão os arquivos após compilados?
+#### Como serão os arquivos após compilados?
 - public
   - index.html
   - favicon.ico
   - js
-    -bundle.js
+    - bundle.js
 
-### Componentes só podem ser desenvolvidos em .jsx + .scss?
+#### Componentes só podem ser desenvolvidos em .jsx + .scss?
 No momento sim, pois só instalei o transpiller pra sass
 
-**Por que React e não Angular, Vue, Ember ou Backbone?**
+#### Por que React e não Angular, Vue, Ember ou Backbone?
 Pois React está muito bem colocado no mercado.
 https://github.com/facebook/react/wiki/sites-using-react
 http://www.timqian.com/star-history/#facebook/react&angular/angular&vuejs/vue
 https://hackernoon.com/5-best-javascript-frameworks-in-2017-7a63b3870282
 
-### Posso instalar como se fosse um aplicativo?
+#### Posso instalar como se fosse um aplicativo?
 Por enquanto PWA não está funcionando
 
 # Autores
