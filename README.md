@@ -31,37 +31,53 @@ $ npm install
 
 Como usar
 ---------
-Para compilar para produção:
+Para compilar para **produção**:
 ```shell
 $ npm run build
 ```
 
-Para compilar para desenvolvimento:
+Para compilar para **desenvolvimento**:
 ```shell
 $ npm run dev
 ```
 
-Para começar um [localost](http://localhost:8080) no ambiente de desenvolvimento:
+Para começar um **[localost](http://localhost:8080)** no ambiente de desenvolvimento:
 ```shell
 $ npm start
 ```
 
-Para iniciar o servidor do node
+Para iniciar o **servidor** do node
 ```shell
 $ npm run server
 ```
 
 TODO List
 =========
-* Desenvolver server.js
-* Descobrir um jeito de fazere requisições Offline
+* Desenvolver compare.js
+* Desenvolver regression.js
+* Desenvolver a parte do Banco de Dados no server.js
+* Criar o banco de dados com valores simulados
 
 # FAQ
-Como serão os arquivos após compilados?
-Componentes só podem ser desenvolvidos em .jsx + .scss?
-Por que React e não Angular, Vue, Ember ou Backbone?
-Posso instalar como se fosse um aplicativo?
+**Como serão os arquivos após compilados?**
++-- publicj
+|- js
+|-+ bundle.js
+|- index.html
+|- favicon.ico
 
+
+**Componentes só podem ser desenvolvidos em .jsx + .scss?**
+No momento sim, pois só instalei o transpiller pra sass
+
+**Por que React e não Angular, Vue, Ember ou Backbone?**
+Pois React está muito bem colocado no mercado.
+https://github.com/facebook/react/wiki/sites-using-react
+http://www.timqian.com/star-history/#facebook/react&angular/angular&vuejs/vue
+https://hackernoon.com/5-best-javascript-frameworks-in-2017-7a63b3870282
+
+**Posso instalar como se fosse um aplicativo?**
+Por enquanto PWA não está funcionando
 
 # Autores
 * Andrew Kenji Hanasiro [email](mailto:andrewkanasiro@gmail.com) [github](https://github.com/AndrewHanasiro)
