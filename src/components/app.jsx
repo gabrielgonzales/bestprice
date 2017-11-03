@@ -11,7 +11,7 @@ import Product from "./product/product.jsx";
 require('./app.scss');
 
 render(
-    <BrowserRouter>
+    <BrowserRouter  basename="/">
         <div id="wrapper">
             <Header />
             <Navigation />
