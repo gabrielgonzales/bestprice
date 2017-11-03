@@ -1,3 +1,8 @@
+@import "../app.scss";
 footer{
+    @include reset;
+    grid-area: footer;
+    padding: 1%;
+    text-align: center;
     background: #CCC;
 }

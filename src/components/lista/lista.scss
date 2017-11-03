@@ -1,0 +1,8 @@
+@import "../app.scss";
+
+main{
+    @include reset;
+    grid-area: main;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+}
