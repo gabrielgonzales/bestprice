@@ -64,7 +64,7 @@ module.exports = {
                     loader: 'file-loader',
                     options: {
                         name: '[name].[ext]',
-                        outputPath:'img/'
+                        outputPath: 'img/'
                     },
                 }
             }
@@ -78,6 +78,12 @@ module.exports = {
         watchContentBase: true,
         contentBase: path.join(__dirname, 'public'),
         port: 8080,
-        open: true
+        open: true,
+        historyApiFallback: {
+            rewrites: [
+                // shows views/landing.html as the landing page
+                { from: /^\/$/, to: 'index.html' },
+            ],
+        }
     }
 }
