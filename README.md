@@ -9,7 +9,7 @@ Características
 
 Frameworks & Ferramentas
 ------------------------
-* NodeJs v8.7.0
+* NodeJs v9.0.0
 * ReactJs v16.0.0 + React-Router v4.2.0
 * Webpack v3.8.1 + Webpack-Dev-Server v2.9.3 
 
