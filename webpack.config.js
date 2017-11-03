@@ -49,17 +49,24 @@ module.exports = {
                     loader: 'html-loader'
                 }
             },
+            // {
+            //     test: /.(jpg|png|svg)$/,
+            //     use: {
+            //         loader: 'url-loader',
+            //         options: {
+            //             limit: 250000000
+            //         }
+            //     }
+            // },
             {
                 test: /\.(png|jpg|gif|svg|webp)$/i,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[path][name].[ext]',
-                            outputPath: 'images/'
-                        }
-                    }
-                ]
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath:'img/'
+                    },
+                }
             }
         ]
     },
