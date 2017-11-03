@@ -1,20 +1,42 @@
 {
 	"name": "bestprice",
 	"version": "1.0.0",
-	"description": "Sistemas Inteligentes",
+	"description": "BestPricee, comparador de preço para a disciplina Sistemas Inteligentes",
 	"main": "server/index.js",
 	"scripts": {
 		"build": "webpack -p --config webpack.config.js",
-		"start": "webpack-dev-server --config webpack.config.js",
-		"dev": "webpack -d --watch",
-		"server": "node server.js"
+		"test": "webpack-dev-server --config webpack.config.js",
+		"dev": "webpack -d --watch --config webpack.config.js",
+		"start": "node server.js"
 	},
-	"keywords": [],
-	"author": "Andrew Hanasiro",
+	"keywords": [
+		"BestPrice",
+		"Sistemas Inteligentes",
+		"Comparador de preço",
+		"FullStack"
+	],
+	"author": {
+		"name": "Andrew Hanasiro",
+		"email": "andrewkhanasiro@gmail.com"
+	},
+	"contributors":[
+		{
+			"name": "Gabriel Fernandes Gonzales"
+		},
+		{
+			"name": "Wagner Roberto Balsani"
+		},
+		{
+			"name": "Yuri Kobashigawa"
+		}
+	],
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/AndrewHanasiro/bestprice.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AndrewHanasiro/bestprice/issues"
 	},
 	"devDependencies": {
 		"babel-core": "^6.26.0",

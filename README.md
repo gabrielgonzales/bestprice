@@ -43,12 +43,12 @@ $ npm run dev
 
 Para começar um **[localost](http://localhost:8080)** no ambiente de desenvolvimento:
 ```shell
-$ npm start
+$ npm test
 ```
 
 Para iniciar o **servidor** do node
 ```shell
-$ npm run server
+$ npm start
 ```
 
 TODO List

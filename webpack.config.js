@@ -49,15 +49,6 @@ module.exports = {
                     loader: 'html-loader'
                 }
             },
-            // {
-            //     test: /.(jpg|png|svg)$/,
-            //     use: {
-            //         loader: 'url-loader',
-            //         options: {
-            //             limit: 250000000
-            //         }
-            //     }
-            // },
             {
                 test: /\.(png|jpg|gif|svg|webp)$/i,
                 use: {
@@ -81,8 +72,7 @@ module.exports = {
         open: true,
         historyApiFallback: {
             rewrites: [
-                // shows views/landing.html as the landing page
-                { from: /^\/$/, to: 'index.html' },
+                { from: /^\/$/, to: 'index.html' }// qualqueer coisa retorna index.html
             ],
         }
     }
