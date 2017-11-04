@@ -17,6 +17,21 @@ app.get("/", function (request, response) {//Se acessar o Root entao retorna o i
     response.redirect('./public/index.html');
 });
 
+app.get("/product", function (request, response) {//Usa a API para buscar todos os produtos disponiveis no banco de dados
+    response.send({
+        "resultado": {
+            "arroz": {
+                "id": "123456",
+                "price": "2.45"
+            },
+            "feijao": {
+                "id": "789",
+                "price": "99.89"
+            }
+        }
+    })
+});
+
 app.get("/product/predict/:id", function (request, response) {//Usa a API da regressão de um produto com um ID específico
     var id = parseInt(request.params.id); //Peagnod informação do parametro da url
 
@@ -27,7 +42,7 @@ app.get("/product/predict/:id", function (request, response) {//Usa a API da reg
     }
 
     //Busca no Banco de Dados o ID e retorna um Array do preço
-    price = [1, 2, 3]
+    price = [1, 2, 3];
 
     try {
         let api = new regression(price);
@@ -61,7 +76,6 @@ app.get("/product/:id", function (request, response) {//Usa a API da compare de 
         });
     } catch (error) {
         console.log(error);
-        return;
     }
 });
 
@@ -79,11 +93,10 @@ app.get("/lista/:ids", function (request, response) { //Usa a API da compare de 
             ids.push(match);
         });
     }
-
     if (ids == null) {
         response.status(400);
         response.json({ error: "Bad request." });
-        return;
+        return
     }
     //Busca no Banco de Dados o ID e retorna um Array do preço
     v = [1, 2, 3];

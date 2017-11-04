@@ -16,7 +16,7 @@ render(
             <Header />
             <Navigation />
             <main>
-                <Route exact path={"/"}component={Home} />
+                <Route exact path={"/"} component={Home} />
                 <Route path={"/lista"} component={Lista} />
                 <Route path={"/product"} component={Product} />
             </main>
