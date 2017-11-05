@@ -61,13 +61,6 @@ Para desenvolver o website, use os comandos 2 ou 3. A difereença é o comando 2
 
 Para desenvolver o servidor, use primeiro o comando 1 e depois o comando 4. Isto significa que estará criando uma pasta public otimizada pelo comando 1 e começara a rodar um servidor local na porta 3000.
 
-TODO List
-=========
-* Desenvolver compare.js
-* Desenvolver regression.js
-* Desenvolver a parte do Banco de Dados no server.js
-* Criar o banco de dados com valores simulados
-
 # FAQ
 #### Como serão os arquivos após compilados?
 - public
@@ -96,3 +89,20 @@ Por enquanto PWA não está funcionando
 
 # Licença
 Este projeto está sobre a licença [MIT](https://github.com/AndrewHanasiro/bestprice/LICENSE).
+
+# TODO List
+
+Front-end
+---------
+stage-1: /home - /contact
+stage-2: /product
+stage-3: /lista
+stage-4: /product/predict
+stage-5: testar com back-end resquest e response
+
+Back-end
+--------
+stage-1: criar o banco de dados com valores simulados
+stage-2: desenvolver a parte do Banco de Dados no server.js
+stage-3: Desenvolver compare.js
+stage-4: Desenvolver regression.js
