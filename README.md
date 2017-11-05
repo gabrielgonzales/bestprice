@@ -29,27 +29,37 @@ Antes de começar, instale as dependencias com o comando:
 $ npm install
 ```
 
-Como usar
+Comandos
 ---------
-Para compilar para **produção**:
+1) Para compilar para **produção**:
 ```shell
 $ npm run build
 ```
 
-Para compilar para **desenvolvimento**:
+2) Para compilar para **desenvolvimento**:
 ```shell
 $ npm run dev
 ```
 
-Para começar um **[localost](http://localhost:8080)** no ambiente de desenvolvimento:
+3) Para começar um **[localost](http://localhost:8080)** no ambiente de desenvolvimento:
 ```shell
 $ npm test
 ```
 
-Para iniciar o **servidor** do node
+4) Para iniciar o **[servidor](http://localhost:3000)** do node
 ```shell
 $ npm start
 ```
+
+5) Para implementar no servidor do firebase
+```shell
+$ npm run deploy
+```
+Instruções
+----------
+Para desenvolver o website, use os comandos 2 ou 3. A difereença é o comando 2 irá criar uma pasta public enquanto o 3 irá abrir o servidor com os arquivos em memória. Ambos pegam a pasta src/ como fonte e tudo que é modificado no na src/ é automaticamente atualizado na pasta public ou em memória.
+
+Para desenvolver o servidor, use primeiro o comando 1 e depois o comando 4. Isto significa que estará criando uma pasta public otimizada pelo comando 1 e começara a rodar um servidor local na porta 3000.
 
 TODO List
 =========
