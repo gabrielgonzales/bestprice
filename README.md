@@ -57,9 +57,9 @@ $ npm run deploy
 ```
 Instruções
 ----------
-Para desenvolver o website, use os comandos 2 ou 3. A difereença é o comando 2 irá criar uma pasta public enquanto o 3 irá abrir o servidor com os arquivos em memória. Ambos pegam a pasta src/ como fonte e tudo que é modificado no na src/ é automaticamente atualizado na pasta public ou em memória.
+Para desenvolver o website, use os comandos 2 ou 3. A diferença é que o comando 2 irá criar uma pasta public/ enquanto o 3 irá abrir o servidor com os arquivos em memória. Ambos pegam a pasta src/ como fonte e tudo que é modificado na src/ é automaticamente atualizado na pasta public ou em memória.
 
-Para desenvolver o servidor, use primeiro o comando 1 e depois o comando 4. Isto significa que estará criando uma pasta public otimizada pelo comando 1 e começara a rodar um servidor local na porta 3000.
+Para desenvolver o servidor, use primeiro o comando 1 e depois o comando 4. Isto significa que estará criando uma pasta public otimizada pelo comando 1 e começará a rodar um servidor local na porta 3000.
 
 # FAQ
 #### Como serão os arquivos após compilados?
