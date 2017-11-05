@@ -4,7 +4,7 @@ nav{
     @include reset;
     grid-area: navigation;
     padding: 2%;
-    background-color: rgb(72, 64, 131);
+    background-color: #FFF;
     ul{
         padding: 0;
         list-style: none;
@@ -15,7 +15,7 @@ nav{
                 text-decoration: none;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 font-size: 1.5vw;
-                color: white;
+                color: black;
             }
         }
     }

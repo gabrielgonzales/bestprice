@@ -8,8 +8,9 @@ class Navigation extends React.Component {
             <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/product">Melhores Preço</Link></li>
-                    <li><Link to="/lista">Faça Lista de Compra</Link></li>
+                    <li><Link to="/product">Melhores Preços</Link></li>
+                    <li><Link to="/lista">Faça Sua Lista</Link></li>
+                    <li><Link to="/contact">Contato</Link></li>
                 </ul>
             </nav>
         );

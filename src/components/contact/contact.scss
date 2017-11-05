@@ -1,0 +1,17 @@
+@import "../variable_mixin.scss";
+
+div#contact{
+    @include reset;
+    ul{
+        padding: 0;
+        list-style: none;
+        li{
+            padding: 1%;
+            display: block;
+            
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+}

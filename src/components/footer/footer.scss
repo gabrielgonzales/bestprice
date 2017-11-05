@@ -3,8 +3,8 @@ footer{
     @include reset;
     grid-area: footer;
     color: #FFF;
-    font-family: Impact;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 1%;
     text-align: center;
-    background: rgb(70, 70, 70);
+    background: linear-gradient(rgb(58, 58, 58),rgb(19, 19, 19));
 }
