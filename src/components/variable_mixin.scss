@@ -1,0 +1,10 @@
+@mixin reset{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    position: relative;
+    background-color: transparent;
+    font-size: 1vw;
+    font-family: Verdana;
+}

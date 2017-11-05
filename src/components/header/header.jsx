@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './header.scss';
 import { Link } from 'react-router-dom';
-const logo = require("./logo.png");
+const logo = require("../images/logo.png");
 
 class Header extends React.Component {
     render() {

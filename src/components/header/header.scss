@@ -1,9 +1,9 @@
-@import "../app.scss";
+@import "../variable_mixin.scss";
 
 header{
     @include reset;
     grid-area: header;
     text-align: center;
     padding: 1%;
-    background-color: blue;
+    background-color: rgb(72, 64, 131);
 }

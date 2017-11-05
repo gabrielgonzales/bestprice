@@ -1,8 +1,10 @@
-@import "../app.scss";
+@import "../variable_mixin.scss";
 footer{
     @include reset;
     grid-area: footer;
+    color: #FFF;
+    font-family: Impact;
     padding: 1%;
     text-align: center;
-    background: #CCC;
+    background: rgb(70, 70, 70);
 }

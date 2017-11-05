@@ -7,7 +7,8 @@
 		"build": "webpack -p --config webpack.config.js",
 		"test": "webpack-dev-server --config webpack.config.js",
 		"dev": "webpack -d --watch --config webpack.config.js",
-		"start": "node server.js"
+		"start": "node server.js",
+		"deploy": "firebase deploy"
 	},
 	"keywords": [
 		"BestPrice",
@@ -19,7 +20,7 @@
 		"name": "Andrew Hanasiro",
 		"email": "andrewkhanasiro@gmail.com"
 	},
-	"contributors":[
+	"contributors": [
 		{
 			"name": "Gabriel Fernandes Gonzales"
 		},
@@ -48,16 +49,20 @@
 		"ejs-loader": "^0.3.0",
 		"extract-text-webpack-plugin": "^3.0.2",
 		"file-loader": "^1.1.5",
+		"firebase-tools": "^3.14.0",
 		"html-loader": "^0.5.1",
 		"html-webpack-plugin": "^2.30.1",
+		"image-webpack-loader": "^3.4.2",
 		"node-sass": "^4.5.3",
 		"sass-loader": "^6.0.6",
 		"style-loader": "^0.19.0",
+		"url-loader": "^0.6.2",
 		"webpack": "^3.8.1",
 		"webpack-dev-server": "^2.9.3"
 	},
 	"dependencies": {
 		"express": "^4.16.2",
+		"firebase": "^4.6.1",
 		"react": "^16.0.0",
 		"react-dom": "^16.0.0",
 		"react-router": "^4.2.0",
