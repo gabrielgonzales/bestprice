@@ -94,15 +94,16 @@ Este projeto está sobre a licença [MIT](https://github.com/AndrewHanasiro/best
 
 Front-end
 ---------
-* stage-1: /home - /contact
-* stage-2: /product
-* stage-3: /lista
-* stage-4: /product/predict
-* stage-5: testar com back-end resquest e response
+* stage-1: /home - /contact (Andrew)
+* stage-2: /product (Andrew)
+* stage-3: /lista (P1)
+* stage-4: /product/predict (P1)
+* stage-5: testar com back-end resquest e response (Todos)
 
 Back-end
 --------
-* stage-1: criar o banco de dados com valores simulados
-* stage-2: desenvolver a parte do Banco de Dados no server.js
-* stage-3: Desenvolver compare.js
-* stage-4: Desenvolver regression.js
+* stage-1: criar o banco de dados com valores simulados (P2)(P3)
+* stage-2: desenvolver a parte do Banco de Dados no server.js (P2)(P3)
+* stage-3: desenvolver compare.js (P1)(P2)
+* stage-4: ddesenvolver regression.js (P3)(Andrew)
+* stage-5: testar com back-end resquest e response (Todos)
