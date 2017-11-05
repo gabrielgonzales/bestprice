@@ -6,10 +6,8 @@ class Home extends React.Component {
     render() {
         return (
             <div id="home">
-                <div className="home_logo">
+                <div className="home_banner">
                     <img src={logo} alt="Logo" />
-                </div>
-                <div className="home_text">
                     <h2>BESTPRICE</h2>
                     <p>Juntando os melhores estabelecimentos</p>
                     <p>Analisando os melhores preços</p>

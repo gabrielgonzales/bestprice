@@ -1,34 +1,26 @@
 @import "../variable_mixin.scss";
 
 div#home{
-    @include reset; 
+    @include reset;
     height: 100%;
     background-image: url("../images/background720.jpg");
-    background-origin: padding-box;
-    background-position: center;
+    background-attachment: scroll;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    div.home_logo{
-        @include reset;
-        width: 15vw;
-        padding-top: 15vh;
-        margin-left: auto;
-        margin-right: auto;
-        img{
-            width: 15vw;
-        }
-    }
-    div.home_text{
-        @include reset;
+    div.home_banner{
+        margin: 0 auto 0 auto;
         width: 50%;
-        margin-left: auto;
-        margin-right: auto;
+        height: 100%;
         text-align: center;
         font-weight: bold;
         font-size: 1.4vw;
         padding: 1% 0 1% 0;
         color: rgb(104, 104, 104);
-        background-color: rgba($color: #FFF, $alpha: 0.5);
+        background-color: rgba(255, 255, 255, 0.5);
+        img{
+            width: 10vw;
+        }
         h2{
             color: rgb(75, 75, 75);
         }

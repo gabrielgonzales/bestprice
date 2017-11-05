@@ -15,6 +15,9 @@ body, div#app{
         main{
             @include reset;
             grid-area: main;
+            background-image: url("images/dust_scratches.png");
+            background-attachment: fixed;
+            background-position: top left;
         }
     }
     
